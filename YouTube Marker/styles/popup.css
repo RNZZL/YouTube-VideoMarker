@@ -1,0 +1,44 @@
+html {
+    width: 150px;
+}
+
+body {
+    margin: 0;
+}
+
+#popupHeading {
+    background-color: #337ab7;
+    color: white;
+    text-align: center;
+}
+
+#popupHeading h1{
+    padding: 10px 16px;
+    font-size: 15px;
+    margin: 0;
+}
+
+#popupBody {
+    background-color: #fefefe;
+}
+
+#popupBody .links {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+#popupBody .links .link {
+    color: black;
+    padding: 3px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    transition: text-shadow 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#popupBody .links .link:hover {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    background-color: #f5f5f5;
+}
